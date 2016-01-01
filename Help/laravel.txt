@@ -1,0 +1,21 @@
+Laravel : http://laravel.com/docs/master#installation
+Download file Composer-Setup.exe at https://getcomposer.org/ and install it.
+install information :
+PHP version 5.5.19
+      D:\Working\php\workspace\php\php.exe
+
+Add to System path variable:
+      C:\ProgramData\ComposerSetup\bin
+
+Shell Menus: 
+      Do not install
+
+command line:
+cd..
+C:> D: (To D Disk)
+cd D:\Working\php\workspace\htdocs
+
+Create project: (v5.1.11)
+composer create-project laravel/laravel --prefer-dist
+
+Video : https://laracasts.com/series/laravel-5-fundamentals/episodes/1

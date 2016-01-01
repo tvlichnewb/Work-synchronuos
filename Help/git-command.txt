@@ -1,0 +1,11 @@
+link ref :
+https://www.kernel.org/pub/software/scm/git/docs/git-config.html
+https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
+
+1/ git config --global user.email "lichcse@gmail.com"
+2/ git config --global user.name "lichcse"
+3/ git config --global core.editor emacs
+4/ git config --list
+5/ git config --global core.filemode true
+
+6/ git config --global http.sslVerify false

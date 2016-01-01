@@ -1,0 +1,12 @@
+I : install typescript
+1/ install : Node.js
+2/ open : Node.js command prompt
+3/ http://www.typescriptlang.org/ -> learn -> run command (Node.js command pormpt): npm install -g typescript
+4/ check version : tsc -v
+
+II : install visual studio code (https://code.visualstudio.com/Docs/?dv=win)
+
+III : Run example
+1/ open : Windown PowerShell
+2/ cd to folder source code (cd .. , cd E: , cd \folder source\ , dir : check file)
+3/ compile : tsc name_file.ts - auto compile : tsc name_file.ts --watch

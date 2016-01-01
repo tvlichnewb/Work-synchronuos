@@ -1,0 +1,46 @@
+I : JAVA
+Variable name : JAVA_HOME
+Varuable value : C:\Program Files\Java\jdk1.7.0_67
+Path : %JAVA_HOME%\bin;
+
+II : Maven :
+Download apache-maven-3.2.1 and copy to C:\
+Variable name : M2_HOME
+Varuable value : C:\apache-maven-3.2.1
+Path : %M2_HOME%\bin;
+
+Change path :
+Create folder flexba if not exist folder flexba (C:\Users\lichvt.hd\.m2\repository)
+C:\apache-maven-3.2.1\conf\settings.xml
+CHANGE TO
+<localRepository>C:\Users\lichvt.hd\.m2\repository\flexba</localRepository>
+
+
+III : Tomcat :
+Download apache-tomcat-7.0.47 and copy to D:\User\lichtv\
+Variable name : CATALINA_HOME
+Varuable value : D:\User\lichtv\apache-tomcat-7.0.47
+Path : %CATALINA_HOME%\bin;
+
+
+Config on Eclipse:
+window -> Preferences
+1/ Java -> Installed JREs : add or change path
+JRE home : C:\Program Files\Java\jdk1.7.0_67
+JRE name : jre7
+
+2/ Maven -> User Settings
++ User settings (open file) -> Browse
+C:\apache-maven-3.2.1\conf\settings.xml    -> Maven
++ Local Repository
+C:\Users\lichvt.hd\.m2\repository\flexba   -> Maven
+
+3/ Server -> Runtime Environments
+Create Tomcat Server
+
+IV : Spring
+Help -> install new software -> add -> http://dist.springsource.com/release/TOOLS/update/e3.6
+
+V : FindBugs (FindBugs Eclipse Plugin 3.0.1)
+
+VI : Checkstyle (Checkstyle Plug-in 6.11.1)

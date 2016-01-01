@@ -1,0 +1,32 @@
+1/ Config server mongodb :
+Folder Resource : "C:\mongodb"
++ /bin/
++ /data/db/
++ /log/mongo.log
++ /GNU-AGPL-3.0
++ /mongod.cfg (NOTE -> config)
++ /README
++ /THIRD-PARTY-NOTICES
+
+File : mongod.cfg (C:\mongodb\mongo.log)
+content :
+logpath=C:\mongodb\log\mongo.log      (modify do it)
+dbpath=C:\mongodb\data\db             (modify do it)
+bind_ip = 127.0.0.1                   (Recommendation : Not change)
+port = 27017                          (Recommendation : Not change)
+
+--> run command : mongod.exe --config="C:\mongodb\mongod.cfg"
+2/ setup environment on windows
++ Variable name : MONGO_DB
++ Variable value : C:\mongodb
+--> add to "path" : ";%MONGO_DB%\bin;"
+
+3/ start and stop service
++ net start MongoDB
++ net stop MongoDB
+=================================================================================
+Command .
+
+1/ show dbs
+2/ use db_name
+3/ 

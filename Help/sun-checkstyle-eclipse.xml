@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Puppy Crawl//DTD Check Configuration 1.2//EN" "http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
+
+<module name="Checker">
+    <property name="severity" value="warning"/>
+    <module name="TreeWalker">
+
+        <property name="tabWidth" value="4"/>
+        <!-- 1 -->
+        <module name="ArrayTypeStype">
+            <property name="severity" value="ignore"/>
+        </module>
+        <!-- 2 -->
+        <module name="FinalParameters">
+            <property name="severity" value="ignore"/>
+            <property name="tokens" value="METHOD_DEF, CTOR_DEF"/>
+        </module>
+        <!-- 3 -->
+        <module name="GenericIllegalRegexp">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 4 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 5 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 6 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 7 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 8 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 9 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 10 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 11 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 12 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 13 -->
+        <module name="ModifierOrder"/>
+        <!-- 14 -->
+        <module name="DeclarationOrder"/>
+        <!-- 15 -->
+        <module name="RedundantModifier"/>
+        <!-- 16 -->
+        <module name="TodoComment">
+            <property name="severity" value="ignore"/>
+        </module>
+        <!-- 17 -->
+        <module name="UpperEll"/>
+        <!-- 18 -->
+        <module name="AvoidNestedBlocks"/>
+        <!-- 19 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 20 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 21 -->
+        <module name="NeedBraces"/>
+        <!-- 22 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 23 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 24 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 25 -->
+        <module name="EmptyStatement"/>
+        <!-- 26 -->
+        <module name="EqualsHashCode"/>
+        <!-- 27 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 28 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 29 -->
+        <module name="InnerAssignment"/>
+        <!-- 30 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 31 -->
+        <module name="MissingSwitchDefault"/>
+        <!-- 32 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 33 -->
+        <module name="SimplifyBooleanExpression"/>
+        <!-- 34 -->
+        <module name="SimplifyBooleanReturn"/>
+        <!-- 35 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 36 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 37 -->
+        <module name="HideUtilityClassConstructor"/>
+        <!-- 38 -->
+        <module name="InterfaceIsType"/>
+        <!-- 39 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 40 -->
+        <module name="AvoidStarImport"/>
+        <!-- 41 -->
+        <module name="IllegalImport"/>
+        <!-- 42 -->
+        <module name="RedundantImport"/>
+        <!-- 43 -->
+        <module name="UnusedImport"/>
+        <!-- 44 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 45 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 46 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 47 -->
+        <module name="ConstantName"/>
+        <!-- 48 -->
+        <module name="LocalFinalVariableName"/>
+        <!-- 49 -->
+        <module name="LocalVariableName"/>
+        <!-- 50 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 51 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 52 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 53 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 54 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 55 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 56 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 57 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 58 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 59 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 60 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 61 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 62 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 63 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 64 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 65 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 66 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 67 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 68 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 69 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 70 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 71 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+        <!-- 72 -->
+        <module name="">
+            <property name="" value=""/>
+            <property name="" value=""/>
+        </module>
+    </module>
+    <module name="SuppressionFilter">
+        <property name="file" value="${config_doc}Checkstyle-supression.xml"/>
+    </module>
+</module>
