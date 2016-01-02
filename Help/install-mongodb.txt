@@ -1,0 +1,58 @@
+open cmd in folder: G:\Database\mongodb-win32-x86_64-2008plus-ssl-3.0.6-signed.msi
+shift + right mouse -> open command window here
+
+1/ install
++ msiexec.exe /q /i mongodb-win32-x86_64-2008plus-ssl-3.0.6-signed.msi INSTALLLOCATION="C:\mongodb" ADDLOCAL="all"
+
+2/ + mongod.exe --dbpath C:\mongodb\data\db
+
+3/ test insert database
++ mongo.exe
++ show dbs
++ use expertdb
++ a = {site : "solutionsatexperts.com"}
++ b = {owner : "TMS"}
++ db.testingdata.insert(a)
++ db.testingdata.insert(b)
++ show collections
++ db.testingdata.find()
+
+4/ service
+create folder "log" : C:\mongodb\log
+create file : C:\mongodb\mongod.cfg - and insert content below
+logpath=C:\mongodb\log\mongo.log
+dbpath=C:\mongodb\data\db
+bind_ip = 127.0.0.1
+port = 27017
+
++ mongod.exe --config C:\mongodb\mongod.cfg --install
++ mongod.exe --remove
+
+(C:\mongo)
++ net start MongoBD
++ net stop MongoBD
+
+
+
+
++ create folder : data, log
++ cretae file mongodb.config with content below
+dbpath=C:\database\data
+logpath=C:\database\log\mongodb.log
+dialog=3
+
+
+
+
+
+2/ start
+open cmd in folder: C:\mongodb\bin (shift + right mouse -> open command window here)
++ mongod.exe --dbpath C:\mongodb\data\db
+
+
+// file cfg
+systemLog:
+    destination: file
+    path: D:\Working\mongodb\data\log\mongod.log
+storage:
+    dbPath: d:\Working\mongodb\data\db
