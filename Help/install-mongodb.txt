@@ -56,3 +56,8 @@ systemLog:
     path: D:\Working\mongodb\data\log\mongod.log
 storage:
     dbPath: d:\Working\mongodb\data\db
+
+----------------------------------------------------------------------------
+mongod.exe --config C:\Program Files\MongoDB\Server\3.2\mongod.cfg --install
+
+mongod.exe --config="C:\Program Files\MongoDB\Server\3.2\mongod.cfg"
