@@ -1,0 +1,87 @@
+1/ View -> Show Console
+Copy and paste  content : (https://packagecontrol.io/installation#st3)
+import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
+2/ Ctrl + Shift + P 
+	+ "install" -> Package Control : Install Package
+	+ "Daylee" -> Dayle Rees Color Schemes
+	+ "pred" -> Predawn
+		+ copy :
+			"theme": "predawn.sublime-theme",
+			"color_scheme": "Packages/Predawn/predawn.tmTheme",
+		  
+			"theme": "predawn-DEV.sublime-theme",
+		  
+			"predawn_tabs_active_underline": false,
+			"predawn_tabs_large": false,
+			"predawn_tabs_medium": false,
+			"predawn_tabs_small": false,
+		  
+			"predawn_sidebar_arrows": false,
+			"predawn_sidebar_large": false,
+			"predawn_sidebar_medium": false,
+			"predawn_sidebar_small": false,
+			"predawn_sidebar_xlarge": false,
+			"predawn_sidebar_xsmall": false,
+			"predawn_sidebar_narrow": false,
+		  
+			"predawn_findreplace_small": false,
+			"predawn_quick_panel_small": false,
+		+ change : file - Preferences -> Settings - User
+			{
+				"theme": "predawn.sublime-theme",
+				"color_scheme": "Packages/Predawn/predawn.tmTheme",
+			  
+				"theme": "predawn-DEV.sublime-theme",
+			  
+				"predawn_tabs_active_underline": true,
+				"predawn_tabs_large": false,
+				"predawn_tabs_medium": false,
+				"predawn_tabs_small": true,
+			  
+				"predawn_sidebar_arrows": false,
+				"predawn_sidebar_large": false,
+				"predawn_sidebar_medium": false,
+				"predawn_sidebar_small": true,
+				"predawn_sidebar_xlarge": false,
+				"predawn_sidebar_xsmall": false,
+				"predawn_sidebar_narrow": false,
+			  
+				"predawn_findreplace_small": false,
+				"predawn_quick_panel_small": false,
+			}
+	+ "brackhi" -> BracketHighlighter
+	+ "side" -> SideBarEnhancements
+	+ "SublimeCode" -> SublimeCodeIntel
+		+ information :
+			+ Shortcuts for jump to definition have changed:
+				For Mac OS X:
+				  * Jump to definition = ``Control+Click``
+				  * Jump to definition = ``Control+Command+Alt+Up``
+				  * Go back = ``Control+Command+Alt+Left``
+				  * Manual CodeIntel = ``Control+Shift+space``
+				For Linux:
+				  * Jump to definition = ``Super+Click``
+				  * Jump to definition = ``Control+Super+Alt+Up``
+				  * Go back = ``Control+Super+Alt+Left``
+				  * Manual CodeIntel = ``Control+Shift+space``
+				For Windows:
+				  * Jump to definition = ``Alt+Click``
+				  * Jump to definition = ``Control+Windows+Alt+Up``
+				  * Go back = ``Control+Windows+Alt+Left``
+				  * Manual CodeIntel = ``Control+Shift+space``
+	+ "Emme" -> Emmet
+		+ information
+			Emmet has a number of actions with keyboard shortcuts that may override ones you're using commonly (for example, Ctrl-E or Ctrl-Down). Please read the project main page to get list of available actions and keyboard shortcuts and how to disable them:
+			https://github.com/sergeche/emmet-sublime
+			  
+			Documentation and examples:
+			http://emmet.io
+		+ Ex : div*3 (Ctrl + E)
+		+ Ex : div.myClass*3
+	+ "SublimeLinter" -> SublimeLinter
+		+ install "npm install -g jshint"
+		+ "SublimeLinter-jshint" -> SublimeLinter-jshint (check js)
+		+ install : "npm install -g csslint"
+		+ "SublimeLinter-csslint" -> "SublimeLinter-csslint"
+Remove :
+	+ "remove" -> Package Control : Remove Package

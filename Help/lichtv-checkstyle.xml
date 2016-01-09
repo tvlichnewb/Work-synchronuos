@@ -89,7 +89,6 @@
         <!-- 19 -->
         <module name="EmptyBlock">
             <property name="tokens" value="LITERAL_CATCH, LITERAL_DO, LITERAL_ELSE, LITERAL_FINALLY, LITERAL_IF, LITERAL_FOR, LITERAL_TRY, LITERAL_WHILE, LITERAL_INIT"/>
-            <property name="" value=""/>
         </module>
         <!-- 20 -->
         <module name="LeftCurly">
@@ -136,7 +135,6 @@
         <!-- 32 -->
         <module name="RedundantThrows">
             <property name="allowUncheched" value="true"/>
-            <property name="" value=""/>
         </module>
         <!-- 33 -->
         <module name="SimplifyBooleanExpression"/>
